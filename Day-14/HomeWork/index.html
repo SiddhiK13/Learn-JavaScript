@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript day - 14</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+</head>
+<body>
+
+    <section>
+        <button class="btn btn-success mt-4 ms-2" onclick="fetchData()">Click on button for fetch data</button>
+
+
+        <table class="table table-bordered table-success mt-5 text-center">
+            <thead>
+                <tr>
+                    <th>UserId</th>
+                    <th>Id</th>
+                    <th>Title</th>
+                </tr>
+            </thead>
+            <tbody id="parentid"></tbody>
+        </table>
+
+    </section>
+
+
+    <section>
+        <button class="btn btn-danger mt-4 ms-2" onclick="fetchTodos()">Click on button for fetch data</button>
+
+
+        <table class="table table-bordered table-danger mt-5 text-center">
+            <thead>
+                <tr>
+                    <th>UserId</th>
+                    <th>Id</th>
+                    <th>Title</th>
+                    <th>Completed</th>
+                </tr>
+            </thead>
+            <tbody id="parentid1"></tbody>
+        </table>
+    </section>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
