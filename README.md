@@ -27,8 +27,7 @@ Each folder or file represents a step forward in mastering JavaScript — slowly
 - Arrays and Objects  
 - DOM Manipulation  
 - Events and Event Handling  
-- ES6+ Features (let, const, arrow functions, promises, etc.)  
-- Async JavaScript (Promises, async/await) 
+- ES6+ Features (let, const, arrow functions etc.)  
 - Mini Projects
 
 ---
